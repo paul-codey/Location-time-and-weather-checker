@@ -38,12 +38,8 @@ To run the project locally, follow these steps:
 2. Navigate to the project directory: `cd weather-app`
 3. Open the `index.html` file in your preferred web browser.
 
-Alternatively, you can visit the live demo at [https://your-live-demo-url.com](https://your-live-demo-url.com).
+Alternatively, you can visit the live demo at [https://your-live-demo-url.com](https://location-time-and-weather-checker.vercel.app/).
 
 ## Contributing
 
 Contributions are welcome! If you encounter any issues or have suggestions for improvements, please open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
