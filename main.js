@@ -265,14 +265,14 @@ async function locateData(latlong, place) {
 
 
 //fetching data from 3 APIs
-const getData = async (latLon, city=latLon) => {
+const getData = async (latLon, city) => {
   try {
     const [location, weather, time] = await Promise.all([
       getJson(
         `https://us1.locationiq.com/v1/reverse?key=${locationiq}&${latLon}&format=json`
       ),
       getJson(
-        `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`
+        `https://api.openweathermap.org/data/2.5/weather?${city ? `q=${city}` : latLon}&units=metric&appid=${apiKey}`
       ),
       getJson(
         `https://api.api-ninjas.com/v1/worldtime?${latLon}&X-Api-Key=${timeApiKey}`
