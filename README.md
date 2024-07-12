@@ -38,7 +38,7 @@ To run the project locally, follow these steps:
 2. Navigate to the project directory: `cd weather-app`
 3. Open the `index.html` file in your preferred web browser.
 
-Alternatively, you can visit the live demo at [https://your-live-demo-url.com](https://location-time-and-weather-checker.vercel.app/).
+Alternatively, you can visit the live demo at [(https://location-time-and-weather-checker.vercel.app/)](https://location-time-and-weather-checker.vercel.app/).
 
 ## Contributing
 
